@@ -127,7 +127,7 @@ export function activate(context: vscode.ExtensionContext) {
     const flowiseParticipant = vscode.chat.createChatParticipant("flowise.chat", handler);
     
     // Icon hinzufügen (optional)
-    flowiseParticipant.iconPath = vscode.Uri.joinPath(context.extensionUri, 'media', 'icon.png');
+    flowiseParticipant.iconPath = vscode.Uri.joinPath(context.extensionUri, 'images', 'flowise.png');
 }
 
 export function deactivate() {}

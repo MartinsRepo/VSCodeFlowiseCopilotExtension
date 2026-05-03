@@ -3,6 +3,8 @@
 out/**
 node_modules/**
 src/**
+.flowise.json
+*.code-workspace
 .gitignore
 .yarnrc
 webpack.config.js

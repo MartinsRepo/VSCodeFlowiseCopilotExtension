@@ -1,21 +1,40 @@
 {
   "name": "flowise-copilot",
   "displayName": "Flowise-CoPilot",
-  "description": "Connects Flowise with Copilot",
+  "description": "Run Flowise chatflows directly from VS Code chat.",
   "version": "0.0.1",
   "publisher": "MartinHummel",
-  "icon": "images/icon.png",
+  "icon": "images/flowise.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MartinsRepo/VSCodeFlowiseCopilotExtension.git"
+  },
+  "homepage": "https://github.com/MartinsRepo/VSCodeFlowiseCopilotExtension#readme",
+  "bugs": {
+    "url": "https://github.com/MartinsRepo/VSCodeFlowiseCopilotExtension/issues"
+  },
   "engines": {
     "vscode": "^1.116.0"
   },
   "categories": [
+    "Chat",
     "Other"
   ],
+  "keywords": [
+    "flowise",
+    "chat",
+    "copilot",
+    "ai",
+    "chatflow",
+    "llm"
+  ],
+  "galleryBanner": {
+    "color": "#111827",
+    "theme": "dark"
+  },
   "activationEvents": [],
   "main": "./dist/extension.js",
-  "enabledApiProposals": [
-    "chatVariableResolver"
-  ],
   "contributes": {
     "commands": [
       {
